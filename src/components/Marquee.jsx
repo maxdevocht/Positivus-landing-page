@@ -38,7 +38,7 @@ const Marquee = () => {
   };
 
   return (
-    <section id="tape" className="overflow-x-clip">
+    <section id="tape" className="pb-16 overflow-x-clip">
       <div className="bg-gradient-to-r from-orange to-orange -mx-1">
         <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div

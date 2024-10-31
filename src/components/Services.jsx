@@ -1,6 +1,6 @@
 import { cardData } from "@/assets/assets";
 import Heading from "./Heading";
-import { CircleArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Services = () => {
   return (
@@ -13,19 +13,19 @@ const Services = () => {
         }
       />
 
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid lg:grid-cols-2 gap-8">
         {cardData.map((card, index) => (
           <div
             key={index}
             className="rounded-[45px] bg-black cursor-pointer group"
           >
             <div
-              className="flex justify-between gap-2 p-12 rounded-[45px] border-2 border-black -translate-y-1 group-hover:-translate-y-2 transition-all duration-200"
+              className="flex min-h-80 justify-between gap-2 p-12 rounded-[45px] border-2 border-black -translate-y-2 group-hover:-translate-y-4 transition-all duration-200"
               style={{ backgroundColor: card.background }}
             >
-              <div className="flex flex-col items-start justify-between">
+              <div className="flex flex-col items-start justify-between gap-10">
                 <h3
-                  className="inline text-lg md:text-xl lg:text-2xl px-1 rounded-md"
+                  className="inline text-lg md:text-2xl px-1 rounded-md"
                   style={{
                     backgroundColor: card.textBackground,
                   }}
@@ -33,17 +33,26 @@ const Services = () => {
                   {card.title}
                 </h3>
 
-                <div className="flex items-center gap-2">
-                  <CircleArrowRight
-                    className="-rotate-45"
-                    color={card.buttonColor}
-                    size={30}
-                  />
-                  <span>Learn More</span>
+                <div className="flex items-center gap-4">
+                  <div
+                    className="p-2 rounded-full"
+                    style={{ backgroundColor: card.buttonBackgroundColor }}
+                  >
+                    <ArrowRight
+                      className="-rotate-45 group-hover:rotate-0 transition-all duration-200"
+                      color={card.buttonColor}
+                      size={30}
+                    />
+                  </div>
+                  <span style={{ color: card.p }}>Learn More</span>
                 </div>
               </div>
               <div>
-                <img src={card.image.src} alt={card.image.alt} />
+                <img
+                  src={card.image.src}
+                  alt={card.image.alt}
+                  className="w-full object-cover"
+                />
               </div>
             </div>
           </div>

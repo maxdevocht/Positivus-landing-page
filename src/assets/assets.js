@@ -57,11 +57,11 @@ export const navLinks = [
 export const cardData = [
   {
     _id: "search",
-    title: "Search Engine Optimization",
+    title: "Search Optimization",
     textBackground: "#B9FF66",
     image: {
       src: card1,
-      alt: "Search Engine Optimization",
+      alt: "Search Optimization",
     },
     icon: {
       src: "",
@@ -70,6 +70,7 @@ export const cardData = [
     background: "#F3F3F3",
     buttonColor: "#B9FF66",
     buttonBackgroundColor: "#191A23",
+    p: "#191A23",
   },
   {
     _id: "pay",
@@ -84,8 +85,9 @@ export const cardData = [
       alt: "",
     },
     background: "#B9FF66",
-    buttonColor: "#191A23",
+    buttonColor: "#B9FF66",
     buttonBackgroundColor: "#191A23",
+    p: "#191A23",
   },
   {
     _id: "social",
@@ -100,8 +102,9 @@ export const cardData = [
       alt: "",
     },
     background: "#191A23",
-    buttonColor: "#FFFFFF",
+    buttonColor: "#191A23",
     buttonBackgroundColor: "#ffffff",
+    p: "#FFFFFF",
   },
   {
     _id: "email",
@@ -116,8 +119,9 @@ export const cardData = [
       alt: "",
     },
     background: "#F3F3F3",
-    buttonColor: "##B9FF66",
+    buttonColor: "#B9FF66",
     buttonBackgroundColor: "#191A23",
+    p: "#191A23",
   },
   {
     _id: "content",
@@ -132,8 +136,9 @@ export const cardData = [
       alt: "",
     },
     background: "#B9FF66",
-    buttonColor: "##B9FF66",
+    buttonColor: "#B9FF66",
     buttonBackgroundColor: "#191A23",
+    p: "#191A23",
   },
   {
     _id: "analytics",
@@ -150,5 +155,6 @@ export const cardData = [
     background: "#191A23",
     buttonColor: "#191A23",
     buttonBackgroundColor: "#ffffff",
+    p: "#FFFFFF",
   },
 ];
