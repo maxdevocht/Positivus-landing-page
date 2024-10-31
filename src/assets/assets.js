@@ -53,3 +53,102 @@ export const navLinks = [
     link: "Blog",
   },
 ];
+
+export const cardData = [
+  {
+    _id: "search",
+    title: "Search Engine Optimization",
+    textBackground: "#B9FF66",
+    image: {
+      src: card1,
+      alt: "Search Engine Optimization",
+    },
+    icon: {
+      src: "",
+      alt: "",
+    },
+    background: "#F3F3F3",
+    buttonColor: "#B9FF66",
+    buttonBackgroundColor: "#191A23",
+  },
+  {
+    _id: "pay",
+    title: "Pay-per-click Advertising",
+    textBackground: "#F3F3F3",
+    image: {
+      src: card2,
+      alt: "Pay-per-click Advertising",
+    },
+    icon: {
+      src: "",
+      alt: "",
+    },
+    background: "#B9FF66",
+    buttonColor: "#191A23",
+    buttonBackgroundColor: "#191A23",
+  },
+  {
+    _id: "social",
+    title: "Social Media Marketing",
+    textBackground: "#FFFFFF",
+    image: {
+      src: card3,
+      alt: "Social Media Marketing",
+    },
+    icon: {
+      src: "",
+      alt: "",
+    },
+    background: "#191A23",
+    buttonColor: "#FFFFFF",
+    buttonBackgroundColor: "#ffffff",
+  },
+  {
+    _id: "email",
+    title: "Email Marketing",
+    textBackground: "#B9FF66",
+    image: {
+      src: card4,
+      alt: "Email Marketing",
+    },
+    icon: {
+      src: "",
+      alt: "",
+    },
+    background: "#F3F3F3",
+    buttonColor: "##B9FF66",
+    buttonBackgroundColor: "#191A23",
+  },
+  {
+    _id: "content",
+    title: "Content Creation",
+    textBackground: "#FFFFFF",
+    image: {
+      src: card5,
+      alt: "Content Creation",
+    },
+    icon: {
+      src: "",
+      alt: "",
+    },
+    background: "#B9FF66",
+    buttonColor: "##B9FF66",
+    buttonBackgroundColor: "#191A23",
+  },
+  {
+    _id: "analytics",
+    title: "Analytics and Tracking",
+    textBackground: "#B9FF66",
+    image: {
+      src: card6,
+      alt: "Analytics and Tracking",
+    },
+    icon: {
+      src: "",
+      alt: "",
+    },
+    background: "#191A23",
+    buttonColor: "#191A23",
+    buttonBackgroundColor: "#ffffff",
+  },
+];

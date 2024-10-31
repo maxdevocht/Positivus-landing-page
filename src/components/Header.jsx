@@ -2,8 +2,8 @@ import { Button } from "./ui/button";
 
 const Header = () => {
   return (
-    <section id="header" className="flex h-svh min-h-svh flex-col mt-[4.5rem]">
-      <div className="px-[5%] py-16 w-full flex flex-col lg:flex-row items-center justify-center">
+    <section id="header" className="flex mt-[4.5rem]">
+      <div className="px-[5%] py-16 w-full flex flex-col gap-10 lg:flex-row items-center justify-center">
         <div className="lg:w-1/2 flex flex-col items-start justify-center gap-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl">
             Navigating the digital landscape for success
